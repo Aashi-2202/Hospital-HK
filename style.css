@@ -1,0 +1,56 @@
+body{
+    background-image: url(picc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link{
+    color: rgb(249, 248, 254);
+}
+.footer-container{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 4rem;
+}
+.footer-container{
+    width: 100%;
+    background-color:rgb(0, 0, 0) ;
+    color: aliceblue;
+    display: flex;
+    ;
+}   
+.search {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .search input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #4e99e9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+  }
+  
+  .images{
+    
+  }
+
